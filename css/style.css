@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 400px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px;
+    gap: 36px;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    font-size: 24px;
+    color: #f8f9fa;
+}
+.detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 36px;
+}
+
+.welcome {
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f8f9fa;
+}
+
+.description {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+button{
+    width: 100px;
+}

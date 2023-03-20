@@ -3,17 +3,18 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 img {
-    width: 400px;
+    max-width: 400px;
 }
 
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 36px;
+    padding: 18px 120px 36px 120px;
     gap: 36px;
     background-color: #1F2937;
 }
@@ -27,6 +28,12 @@ header{
     font-size: 24px;
     color: #f8f9fa;
 }
+
+.links{
+    display: flex;
+    gap: 15px;
+}
+
 .detail {
     display: flex;
     justify-content: space-between;
@@ -35,7 +42,7 @@ header{
 .h1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 36px;
 }
 
@@ -43,6 +50,7 @@ header{
     font-size: 48px;
     font-weight:bolder;
     color:#f8f9fa;
+    margin: 0px;
 }
 
 .description {
@@ -52,4 +60,15 @@ header{
 
 button{
     width: 100px;
+    background-color: #3882f6;
+    color: #f8f9fa;
+    border-radius: 5px;
+    border-color:#3882f6;
+    border-style: none;
+    padding:10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
 }
